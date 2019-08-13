@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-import json
+import json 
 import sys
 import errno
 import optparse
@@ -15,6 +15,7 @@ import string
 from distutils.spawn import find_executable as which
 
 # If not run from node/, cd to node/.
+#EDITS
 os.chdir(os.path.dirname(__file__) or '.')
 
 original_argv = sys.argv[1:]
